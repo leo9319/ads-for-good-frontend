@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+public/build/
+.vite/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+__mocks__/
+
+# Vite cache
+.vite/
+.cache/
+
+# Rollup cache
+.rollup.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# IDE/Edito
+.idea

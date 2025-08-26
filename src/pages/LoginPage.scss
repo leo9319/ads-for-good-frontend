@@ -1,0 +1,115 @@
+.background-login {
+  background-image: url('/girl-horizon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35% center;
+  min-height: 100vh;
+}
+
+.right-container {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 38vw;
+  padding: 10px 50px;
+  overflow-y: auto;
+  background-color: #f4f5f7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f5f7;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  gap: 0.25vh;
+
+  .log-in-title {
+    color: #e86100;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 22rem;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.form-error {
+  color: #d32f2f;
+  background-color: #fce4e4;
+  padding: 0.5rem 1rem;
+  margin-top: 0.75rem;
+  border-left: 4px solid #d32f2f;
+  border-radius: 4px;
+  font-size: 0.875rem; // 14px
+  font-weight: 500;
+}
+
+.log-in {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2vh;
+
+  .input {
+    height: auto;
+  }
+
+  .privacy {
+    font-size: 10px;
+  }
+
+  .button {
+    display: flex;
+    width: 50vw;
+  }
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-container {
+  position: fixed;
+  margin-left: 10vw;
+  margin-top: 16vh;
+}
+
+.rerouter {
+  color: #e86100;
+  cursor: pointer;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+}
