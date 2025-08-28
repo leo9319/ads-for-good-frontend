@@ -9,7 +9,7 @@
   .header-bar {
     display: flex;
     justify-content: space-between;
-    align-items: center; // better vertical alignment
+    align-items: start;
     padding: 20px 40px;
   }
 
@@ -23,6 +23,17 @@
     border-radius: 4px;
     text-align: center;
     color: #fff;
+
+    .full-width-button {
+      width: 100%;       
+      max-width: 300px; 
+      margin-top: 18px;
+      display: block;
+    }
+
+    .star-count {
+      display: flex;
+    }
   }
 
   .logo-button {
@@ -74,4 +85,11 @@
   fill: #fff;
   position: relative;
   top: -1px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
 }
