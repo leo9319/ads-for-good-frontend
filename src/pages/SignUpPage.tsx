@@ -31,7 +31,7 @@ const SignUpPage: React.FC = () => {
     }
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_API_BASE_URL}/signup`,
+        `http://127.0.0.1:8000/signup`,
         {
           method: "POST",
           headers: {
@@ -45,7 +45,10 @@ const SignUpPage: React.FC = () => {
         }
       );
 
+      console.log("Response object:", response);
+
       const result = await response.json();
+      console.log("Response JSON:", result);
 
       if (!response.ok) {
         setError(result.message || "Signup failed.");
