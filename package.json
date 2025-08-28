@@ -133,6 +133,7 @@
   },
   "dependencies": {
     "@radix-ui/react-form": "^0.1.1",
+    "@radix-ui/react-tooltip": "^1.2.8",
     "@storybook/builder-vite": "^8.4.7",
     "@world-vision/wv360-core-library": "file:../wv360-storybook",
     "dotenv": "^17.2.1",

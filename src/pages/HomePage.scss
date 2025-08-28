@@ -1,0 +1,77 @@
+.home-page {
+  background-image: url('/src/assets/images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; // better vertical alignment
+    padding: 20px 40px;
+  }
+
+  .stat-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .logo-button {
+    position: relative;
+
+    .sign-up {
+      margin-top: 20px; 
+    }
+  }
+}
+
+.tooltip-content {
+  max-width: 220px; 
+  background-color: #fff;
+  color: #111;
+  padding: 12px 16px 16px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  z-index: 50;
+  word-wrap: break-word;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.tooltip-close {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  background: transparent;
+  border: none;
+  color: #111;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tooltip-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.tooltip-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.tooltip-arrow {
+  fill: #fff;
+  position: relative;
+  top: -1px;
+}
